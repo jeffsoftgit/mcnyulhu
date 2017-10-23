@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "5c0a1715",
   "uiCommonVersion": "5.0.3",
-  "creatorId": "mcnyulhu"
+  "creatorId": "mcnyulhu",
+  "id": "mcnyulhu",
+  "previewImageURL": "/previews/5c0a1715-mcnyulhu/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/jeffsoftgit/mcnyulhu",
+  "creatorName": "Yulong Hu",
+  "sdks": []
 }
