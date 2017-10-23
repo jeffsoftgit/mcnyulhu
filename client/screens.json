@@ -41,6 +41,13 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "demodels"
+    },
+    {
+      "id": "issueadvance",
+      "name": "issueadvance",
+      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcool",
+      "sourceAppId": "universaltemplates",
+      "model": "issueadvance"
     }
   ],
   "sourceAppId": "_blank",

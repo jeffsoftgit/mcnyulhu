@@ -60,5 +60,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.issueadvance', {
+        views: {
+            app: {
+                controller: 'app_issueadvance',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.issueadvance');
+                }
+            }
+        }
     });
 });
