@@ -29,8 +29,8 @@
       "model": "login"
     },
     {
-      "id": "blank1",
-      "name": "BLANK1",
+      "id": "viewissue",
+      "name": "viewissue",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "viewissues"

@@ -42,12 +42,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.blank1', {
+    }).state('app.viewissue', {
         views: {
             app: {
-                controller: 'app_blank1',
+                controller: 'app_viewissue',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.blank1');
+                    return app.templateProvider('app.viewissue');
                 }
             }
         }
