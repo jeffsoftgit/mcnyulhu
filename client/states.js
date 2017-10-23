@@ -51,5 +51,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.namelist', {
+        views: {
+            app: {
+                controller: 'app_namelist',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.namelist');
+                }
+            }
+        }
     });
 });

@@ -34,6 +34,12 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "viewissues"
+    },
+    {
+      "id": "namelist",
+      "name": "namelist",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
