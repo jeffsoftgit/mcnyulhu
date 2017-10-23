@@ -39,7 +39,8 @@
       "id": "namelist",
       "name": "namelist",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "demodels"
     }
   ],
   "sourceAppId": "_blank",
