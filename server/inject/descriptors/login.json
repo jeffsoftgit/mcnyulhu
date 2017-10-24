@@ -52,8 +52,8 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": "input[value='Login']",
+      "control": "exists"
     }
   },
   "connect": [],
