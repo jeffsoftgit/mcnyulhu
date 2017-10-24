@@ -57,6 +57,5 @@
       "control": "exists"
     }
   },
-  "connect": [],
-  "selector": ".button"
+  "connect": []
 }
