@@ -43,7 +43,7 @@
           "type": "string"
         }
       },
-      "selector": "button[value='Login']",
+      "selector": "input[value='Login']",
       "control": "action.button"
     },
     "isLogin": {
