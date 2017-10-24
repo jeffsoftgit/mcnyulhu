@@ -48,5 +48,14 @@
       "selectContains": "Viewing Issues"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isViewissues"
+      ],
+      "screens": [
+        "viewissue"
+      ]
+    }
+  ]
 }
