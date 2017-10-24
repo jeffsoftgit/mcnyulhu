@@ -49,7 +49,13 @@
       },
       "selector": ".button",
       "control": "action.button"
+    },
+    "isLogin": {
+      "type": "identifier",
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
-  "connect": []
+  "connect": [],
+  "selector": ".button"
 }
