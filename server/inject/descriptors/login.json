@@ -33,7 +33,8 @@
         "type": "none"
       },
       "selector": "font",
-      "control": "property.innerText"
+      "control": "property.innerText",
+      "selectContains": "account"
     },
     "submit": {
       "type": "action",
