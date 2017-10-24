@@ -3,7 +3,7 @@
   "properties": {
     "isMyview": {
       "type": "identifier",
-      "selector": ".subtle",
+      "selector": "a",
       "control": "exists",
       "selectContains": "Assigned to Me"
     },
