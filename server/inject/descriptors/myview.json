@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isMyview": {
+      "type": "string",
+      "selector": ".subtle",
+      "control": "exists",
+      "selectContains": "Assigned to Me"
+    }
+  },
+  "connect": []
+}
