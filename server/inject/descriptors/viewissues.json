@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "issuelist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "status": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "summary": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      }
+    }
+  },
+  "connect": []
+}
