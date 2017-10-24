@@ -45,7 +45,7 @@
           "type": "string"
         }
       },
-      "selector": "input[value='Login']",
+      "selector": ".button",
       "control": "action.button"
     }
   },
