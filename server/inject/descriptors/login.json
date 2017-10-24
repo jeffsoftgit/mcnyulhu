@@ -43,8 +43,13 @@
           "type": "string"
         }
       },
-      "selector": "input[value='Login']",
+      "selector": "button[value='Login']",
       "control": "action.button"
+    },
+    "isLogin": {
+      "type": "identifier",
+      "selector": "button[value='Login']",
+      "control": "exists"
     }
   },
   "connect": []
