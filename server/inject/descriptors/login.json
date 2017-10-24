@@ -34,7 +34,8 @@
       },
       "selector": "font",
       "control": "property.innerText",
-      "selectContains": "account"
+      "selectContains": "account",
+      "selectHidden": true
     },
     "submit": {
       "type": "action",
