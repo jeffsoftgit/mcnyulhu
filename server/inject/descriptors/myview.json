@@ -2,10 +2,16 @@
   "type": "object",
   "properties": {
     "isMyview": {
-      "type": "string",
+      "type": "identifier",
       "selector": ".subtle",
       "control": "exists",
       "selectContains": "Assigned to Me"
+    },
+    "viewissueslink": {
+      "type": "action",
+      "selector": "a[href='/mantisbt/view_all_bug_page.php']",
+      "control": "action.link",
+      "selectContains": "View Issues"
     }
   },
   "connect": []
