@@ -42,7 +42,9 @@
         "password": {
           "type": "string"
         }
-      }
+      },
+      "selector": "input[value='Login']",
+      "control": "action.button"
     }
   },
   "connect": []
