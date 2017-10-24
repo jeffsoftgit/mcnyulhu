@@ -54,15 +54,6 @@
       "type": "identifier"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isLogin"
-      ],
-      "screens": [
-        "login"
-      ]
-    }
-  ],
+  "connect": [],
   "selector": ".button"
 }
