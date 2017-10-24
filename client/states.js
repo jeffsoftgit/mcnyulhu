@@ -69,5 +69,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.google', {
+        views: {
+            app: {
+                controller: 'app_google',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.google');
+                }
+            }
+        }
     });
 });

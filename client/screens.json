@@ -48,6 +48,12 @@
       "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcool",
       "sourceAppId": "universaltemplates",
       "model": "issueadvance"
+    },
+    {
+      "id": "google",
+      "name": "google",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
