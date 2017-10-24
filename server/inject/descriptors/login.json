@@ -56,6 +56,15 @@
       "control": "exists"
     }
   },
-  "connect": [],
+  "connect": [
+    {
+      "match": [
+        "isLogin"
+      ],
+      "screens": [
+        "login"
+      ]
+    }
+  ],
   "selector": ".button"
 }
