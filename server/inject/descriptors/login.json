@@ -52,7 +52,6 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": "input[value='Login']",
       "control": "exists"
     }
   },
