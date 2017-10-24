@@ -23,7 +23,7 @@
           "submit"
         ]
       },
-      "selector": "[name=\"password\"]",
+      "selector": "input[name=\"password\"]",
       "control": "text"
     },
     "errorMessage": {
