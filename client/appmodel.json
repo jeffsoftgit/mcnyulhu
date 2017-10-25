@@ -150,5 +150,20 @@
         }
       }
     }
+  },
+  "reportissue": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "category": {
+        "type": "select"
+      },
+      "summary": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    }
   }
 }
