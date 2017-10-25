@@ -63,9 +63,7 @@
       ]
     },
     {
-      "match": [
-        "isViewissues"
-      ],
+      "match": [],
       "action": "reportissuelink"
     }
   ]

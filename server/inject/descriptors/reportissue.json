@@ -25,7 +25,9 @@
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "Isreportissue"
+      ],
       "screens": [
         "reportissue"
       ]
