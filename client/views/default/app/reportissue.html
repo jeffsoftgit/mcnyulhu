@@ -11,14 +11,14 @@
     <ion-content data-comp-id="ionic-content.1">
         <div class="row" data-comp-id="row.1">
             <div class="col" data-comp-id="column.1">
-                <select-list data-comp-id="selectList.1">Category</select-list>
+                <select-list data-comp-id="selectList.1" ng-model="data.category">Category</select-list>
                 <label class="item item-input" data-comp-id="textInput.1">
                     <span class="input-label"></span>
-                    <input placeholder="Summary" type="text">
+                    <input ng-model="data.summary" placeholder="Summary" type="text">
                 </label>
                 <label class="item item-input item-stacked-label" data-comp-id="textAreaInput.1">
                     <span class="input-label"></span>
-                    <textarea rows="4" style="height: 100%;"></textarea>
+                    <textarea ng-model="data.description" rows="4" style="height: 100%;"></textarea>
                 </label>
             </div>
         </div>
