@@ -166,6 +166,9 @@
       },
       "description": {
         "type": "string"
+      },
+      "save": {
+        "type": "action"
       }
     }
   }
