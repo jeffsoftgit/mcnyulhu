@@ -67,7 +67,5 @@ function app_login($scope, app, $q) {
         $scope.doLogin(credentials, true);
     };
 }
-var test=function($scope,app)
-{
-    alert('hello my login');
-}
+window.mocks.login.test = function ($scope, params, app) {
+};
