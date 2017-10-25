@@ -40,6 +40,10 @@
             "type": "string"
           }
         }
+      },
+      "mylogin": {
+        "type": "method",
+        "parameters": {}
       }
     }
   },
