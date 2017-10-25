@@ -46,6 +46,11 @@
       "selector": ".floatleft",
       "control": "exists",
       "selectContains": "Viewing Issues"
+    },
+    "reportissuelink": {
+      "type": "action",
+      "selector": "a[href=\"/mantisbt/bug_report_page.php\"]",
+      "control": "action.link"
     }
   },
   "connect": [
