@@ -1,4 +1,5 @@
-angular.module('app').controller('app_login', app_login,test);
+angular.module('app').controller('app_login', app_login);
+angular.module('app').controller('test',test);
 function app_login($scope, app, $q) {
     'use strict';
     app.init($scope,function()
