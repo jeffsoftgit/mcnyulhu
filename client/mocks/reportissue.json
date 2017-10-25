@@ -1,1 +1,14 @@
-{}
+{
+  "category": {
+    "options": [
+      {
+        "label": "First",
+        "value": "1"
+      },
+      {
+        "label": "Second",
+        "value": "2"
+      }
+    ]
+  }
+}
