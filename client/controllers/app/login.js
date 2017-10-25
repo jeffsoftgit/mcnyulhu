@@ -12,6 +12,7 @@ function app_login($scope, app, $q,$apply) {
     }
     var test=function()
     {
+        console.log('he');
         alert("S");
     }
     
