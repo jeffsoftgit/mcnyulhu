@@ -9,9 +9,10 @@ function app_login($scope, app, $q) {
     if (!$scope.data) {
         $scope.data = {};
     }
-    var mylogin=function()
+    var mylogin=function($scope)
     {
-        $scope.action('login','submit',this);
+        alert('my login');
+        //$scope.action('login','submit',this);
     }
     var checkSupport = function () {
         var deferred = $q.defer();
