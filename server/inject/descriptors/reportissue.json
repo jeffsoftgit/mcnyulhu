@@ -16,7 +16,19 @@
       "type": "string",
       "selector": "[name=\"description\"]",
       "control": "text"
+    },
+    "Isreportissue": {
+      "type": "identifier",
+      "selector": "a[href='/mantisbt/bug_report_page.php']",
+      "control": "action.link"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "reportissue"
+      ]
+    }
+  ]
 }
