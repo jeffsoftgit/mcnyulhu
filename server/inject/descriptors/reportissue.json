@@ -21,6 +21,11 @@
       "type": "identifier",
       "control": "exists",
       "selector": ".button[value='Submit Report']"
+    },
+    "savereport": {
+      "type": "action",
+      "selector": ".button[value='Submit Report']",
+      "control": "action.button"
     }
   },
   "connect": [
