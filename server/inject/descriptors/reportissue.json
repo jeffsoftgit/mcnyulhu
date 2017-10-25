@@ -19,7 +19,7 @@
     },
     "Isreportissue": {
       "type": "identifier",
-      "control": "action.link",
+      "control": "exists",
       "selector": ".button[value='Submit Report']"
     }
   },
