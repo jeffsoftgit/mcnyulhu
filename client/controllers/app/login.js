@@ -66,7 +66,7 @@ function app_login($scope, app, $q) {
         $scope.doLogin(credentials, true);
     };
 }
-function my_login($scope)
+function test($scope)
 {
     alert('hello my login');
 }
