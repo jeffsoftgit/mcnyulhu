@@ -9,11 +9,6 @@ function app_login($scope, app, $q) {
     if (!$scope.data) {
         $scope.data = {};
     }
-    var mylogin=function($scope)
-    {
-        alert('my login');
-        //$scope.action('login','submit',this);
-    }
     var checkSupport = function () {
         var deferred = $q.defer();
         if (typeof cordova !== 'undefined' && window.plugins && window.plugins.touchid) {
