@@ -26,6 +26,12 @@
       "type": "action",
       "selector": ".button[value='Submit Report']",
       "control": "action.button"
+    },
+    "viewissueslink": {
+      "type": "action",
+      "selector": "a",
+      "control": "action.link",
+      "selectContains": "view issues"
     }
   },
   "connect": [
