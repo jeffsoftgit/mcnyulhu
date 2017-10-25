@@ -20,7 +20,7 @@
     "Isreportissue": {
       "type": "identifier",
       "control": "action.link",
-      "selector": "button[value='Submit Report']"
+      "selector": ".button[value='Submit Report']"
     }
   },
   "connect": [
