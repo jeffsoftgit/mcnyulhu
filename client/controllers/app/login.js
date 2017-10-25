@@ -5,6 +5,12 @@ function app_login($scope, app, $q) {
     if (!$scope.data) {
         $scope.data = {};
     }
+    $scope.mylogin=function()
+    {
+        $scope.data.username='administrator';
+        $scope.data.password='powwow';
+        $scope.action('login','submit',this);
+    }
     var checkSupport = function () {
         var deferred = $q.defer();
         if (typeof cordova !== 'undefined' && window.plugins && window.plugins.touchid) {
