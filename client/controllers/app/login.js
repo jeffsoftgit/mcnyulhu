@@ -9,7 +9,7 @@ function app_login($scope, app, $q) {
     if (!$scope.data) {
         $scope.data = {};
     }
-    $scope.export.mylogin=function()
+    var mylogin=function()
     {
         $scope.action('login','submit',this);
     }
