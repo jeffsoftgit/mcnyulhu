@@ -19,8 +19,8 @@
     },
     "Isreportissue": {
       "type": "identifier",
-      "selector": "a[href='/mantisbt/bug_report_page.php']",
-      "control": "action.link"
+      "control": "action.link",
+      "selector": "button[value='Submit Report']"
     }
   },
   "connect": [
