@@ -166,6 +166,9 @@
       },
       "description": {
         "type": "string"
+      },
+      "savereport": {
+        "type": "action"
       }
     }
   }
