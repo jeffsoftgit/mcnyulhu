@@ -44,6 +44,10 @@
       "mylogin": {
         "type": "method",
         "parameters": {}
+      },
+      "test": {
+        "type": "method",
+        "parameters": {}
       }
     }
   },
