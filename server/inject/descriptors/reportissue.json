@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "category": {
+      "type": "select",
+      "selector": "[name=\"category_id\"]",
+      "control": "select"
+    },
+    "summary": {
+      "type": "string",
+      "selector": "[name=\"summary\"]",
+      "control": "text"
+    },
+    "description": {
+      "type": "string",
+      "selector": "[name=\"description\"]",
+      "control": "text"
+    }
+  },
+  "connect": []
+}
