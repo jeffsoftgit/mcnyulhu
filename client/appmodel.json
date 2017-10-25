@@ -169,6 +169,9 @@
       },
       "savereport": {
         "type": "action"
+      },
+      "viewissueslink": {
+        "type": "action"
       }
     }
   }
