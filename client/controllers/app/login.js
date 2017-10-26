@@ -9,7 +9,7 @@ function app_login($scope, app, $q) {
     if (!$scope.data) {
         $scope.data = {};
     }
-    $scope.test=function()
+    $scope.yourtest=function()
     {
         console.log('he');
         alert("S");
@@ -67,5 +67,3 @@ function app_login($scope, app, $q) {
         $scope.doLogin(credentials, true);
     };
 }
-window.mocks.login.test = function ($scope, params, app) {
-};
