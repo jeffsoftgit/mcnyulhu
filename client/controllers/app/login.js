@@ -9,7 +9,7 @@ function app_login($scope, app, $q) {
     if (!$scope.data) {
         $scope.data = {};
     }
-    var test=function()
+    $scope.test=function()
     {
         console.log('he');
         alert("S");
