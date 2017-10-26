@@ -11,8 +11,7 @@ function app_login($scope, app, $q) {
     }
     $scope.yourtest=function()
     {
-        console.log('he');
-        alert("S");
+       alert($scope.data.username);
     }
     
     var checkSupport = function () {
