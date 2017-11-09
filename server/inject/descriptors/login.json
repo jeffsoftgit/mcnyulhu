@@ -52,7 +52,7 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": ".button[value='Login']",
+      "selector": ".form-title",
       "selectContains": "login",
       "control": "exists"
     }
