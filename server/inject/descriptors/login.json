@@ -65,6 +65,10 @@
       "screens": [
         "login"
       ]
+    },
+    {
+      "match": [],
+      "action": "submit"
     }
   ]
 }
