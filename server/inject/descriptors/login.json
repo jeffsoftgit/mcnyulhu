@@ -48,11 +48,11 @@
         }
       },
       "selector": ".button",
-      "control": "action.button"
+      "control": "exists"
     },
     "isLogin": {
       "type": "identifier",
-      "selector": ".form-title",
+      "selector": ".button[value='Ln']",
       "selectContains": "login",
       "control": "exists"
     }
